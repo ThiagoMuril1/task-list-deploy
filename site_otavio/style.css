@@ -1,0 +1,35 @@
+body{
+	background-image: url("25101.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin:0px;
+	padding:0px;
+	
+}
+
+.logo-otavio,.logo-instagram,.logo-whatsapp, .logo-youtube{
+	border: 2px solid black;
+	border-radius:100px;
+	margin:0;
+	padding:0;
+	width: 150px;
+	height: 150px;
+	position:relative;
+	left: 50%;
+	transform: translatex(-50%);
+
+}
+@media(max-width:768px){
+	.logo-otavio, .logo-instagram, .logo-whatsapp, .logo-youtube{
+		width: 100px;
+		height: 100px.
+	}
+}
+
+@media(max-width:480px){
+	.logo-otavio, .logo-instagram, .logo-whatsapp, .logo-youtube{
+		width: 75px;
+		height: 75px;
+	}
+}
